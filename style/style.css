@@ -64,6 +64,15 @@ main {
   text-align: center;
   border-radius: 12px;
   transition: 0.3s;
+  flex: 0 0 28%;
+}
+
+.Senai{
+    background: #1b45b8;
+}
+
+.Uteis{
+    background: #2d395a;
 }
 
 .card:hover {
