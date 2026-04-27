@@ -80,6 +80,19 @@ main {
   background: #1f2b4d;
 }
 
+.Senai:hover{
+    background: #81b81b;
+}
+
+.Uteis:hover{
+    background: #2d4d5a;
+}
+
+.card button a{
+  color: rgba(0, 0, 0, 100);
+  text-decoration: none;
+}
+
 .card h2 { margin-bottom: 20px; }
 .card p { font-size: 14px; margin-bottom: 30px; }
 
