@@ -1,0 +1,64 @@
+main {
+  flex: 1;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: var(--cor-backgound-terciaria);
+  padding: 30px;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  border-radius: 12px;
+  transition: 0.3s;
+  flex: 0 0 28%;
+}
+.card:hover {
+  transform: translateY(-5px);
+  background: #1f2b4d;
+}
+
+.card button a{
+  color: rgba(0, 0, 0, 100);
+  text-decoration: none;
+}
+
+.card h2 { margin-bottom: 20px; }
+.card p { font-size: 14px; margin-bottom: 30px; }
+
+.card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #f5c542;
+  font-weight: bold;
+}
+
+
+#Materias-Conteudo{
+  display: flex;
+  gap: 20px;
+}
+
+.card-materias{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  background: #4a6dcc;
+  padding: 30px;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  border-radius: 12px;
+  transition: 0.3s;
+  flex: 0 0 28%;
+}

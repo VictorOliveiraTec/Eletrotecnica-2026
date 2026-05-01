@@ -1,12 +1,19 @@
-@import url("testes.css");
-@import url("bases.css");
+@import url("animacoes.css");
+@import url("header.css");
+@import url("main.css");
+@import url("footer.css");
 
 :root {
   --cor-background-primario: #0b1220;
   --cor-backgound-secundario: #111a2e;
+  --cor-backgound-terciaria: #16213e;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
+
+.hidden{
+  display: none;
+}
 
 body {
   font-family: Arial, sans-serif;
@@ -17,24 +24,16 @@ body {
   min-height: 100vh;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  background: var(--cor-backgound-secundario);
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+  }
+  nav {
+    display: none;
+  }
+  main {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
-
-main {
-  flex: 1;
-  align-items: center;
-}
-
-footer {
-  margin-top: auto;
-  text-align: center;
-  padding: 20px;
-  background: var(--cor-backgound-secundario);
-  font-size: 14px;
-}
-
