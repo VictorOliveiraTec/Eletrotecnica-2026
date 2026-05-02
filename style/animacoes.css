@@ -13,7 +13,7 @@
 }
 
 /* Só roda no desktop */
-@media (min-width: 772px) {
+@media (min-width: 770px) {
   .logo-titulo span {
     display: inline-block;
     animation: waveColor 2s infinite;
