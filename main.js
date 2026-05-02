@@ -4,64 +4,35 @@ const cards = {
   normas: document.querySelector('#Normas-Tecnicas'),
   senai: document.querySelector('#Senai')
 };
-
 const botoes = {
   materias: document.querySelector('.btn-card1'),
   normas: document.querySelector('.btn-card2'),
   senai: document.querySelector('.btn-card3')
 };
+const config = {
+  materias: ['normas', 'senai'],
+  normas: ['materias', 'senai'],
+  senai: ['materias', 'normas']
+};
+let cardactive = {
+    materias: false,
+    normastecnicas: false,
+    senai: false
+};
 
-// MATERIA
-const materiaisconteudo = document.querySelector('#Materias-Conteudo');
+// função central
+const togglePainel = (alvos) => {
+  alvos.forEach(k => cardactive[k] = !cardactive[k]);
+  const aberto = alvos.every(k => cardactive[k]);
+    alvos.forEach(k => {
+        cards[k].classList.toggle('hidden', aberto);
+    });
+  console.log(aberto ? 'Painel aberto' : 'Painel fechado');
+};
 
-// Estado do painel
-let cardactivematerias = false;
-let cardactivenormastecnicas = false;
-let cardactivesenai = false;
-
-// Evento de clique
-
-botoes.materias.addEventListener('click', () => {
-    cardactivenormastecnicas = !cardactivenormastecnicas;
-    cardactivesenai = !cardactivesenai;
-
-    if (cardactivenormastecnicas  && cardactivesenai) {
-        cards.normas.classList.add('hidden');
-        cards.senai.classList.add('hidden');
-        console.log('Painel aberto');
-    } else {
-        cards.normas.classList.remove('hidden');
-        cards.senai.classList.remove('hidden');
-        console.log('Painel fechado');
-    }
-});
-
-botoes.normas.addEventListener('click', () => {
-    cardactivematerias = !cardactivematerias;
-    cardactivesenai = !cardactivesenai;
-
-    if (cardactivematerias && cardactivesenai){
-        cards.materias.classList.add('hidden');
-        cards.senai.classList.add('hidden');
-        console.log('Painel aberto');
-    } else {
-        cards.materias.classList.remove('hidden');
-        cards.senai.classList.remove('hidden');
-        console.log('Painel fechado');
-    }
-});
-
-botoes.senai.addEventListener('click', () => {
-    cardactivenormastecnicas = !cardactivenormastecnicas;
-    cardactivematerias = !cardactivematerias;
-
-    if (cardactivenormastecnicas && cardactivematerias) {
-        cards.materias.classList.add('hidden');
-        cards.normas.classList.add('hidden');
-        console.log('Painel aberto');
-    } else {
-        cards.materias.classList.remove('hidden');
-        cards.normas.classList.remove('hidden');
-        console.log('Painel fechado');
-    }
+// binding automático
+Object.keys(config).forEach(key => {
+  botoes[key].addEventListener('click', () => {
+    togglePainel(config[key]);
+  });
 });
