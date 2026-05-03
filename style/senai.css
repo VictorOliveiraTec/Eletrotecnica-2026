@@ -1,0 +1,51 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+#senai-conteudo{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-senai{
+  background: var(--cor-backgound-terciaria);
+  padding: 30px;
+  width: 350px;
+  height: 420px;
+  text-align: center;
+  border-radius: 12px;
+  transition: 0.3s;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-senai button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #f5c542;
+  font-weight: bold;
+  width: 100px;
+  align-self: center;
+}
+
+.card-senai:hover {
+  transform: translateY(-10px);
+  background: #103499;
+}
+
+.card-senai button a{
+  color: rgba(0, 0, 0, 100);
+}
+
+@media (max-width: 768px) {
+    .card-senai{
+    flex: 0 0 33.6%;
+    }
+}

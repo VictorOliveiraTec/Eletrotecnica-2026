@@ -43,8 +43,6 @@
   .menu-secundario a:nth-child(2) { animation-delay: 0.20s; }
 }
 
-
-
 @keyframes waveColor {
   0% {
     color: var(--cor-base);

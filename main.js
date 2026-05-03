@@ -4,26 +4,19 @@ const cards = {
   normas: document.querySelector('#Normas-Tecnicas'),
   senai: document.querySelector('#Senai')
 };
+
 const botoes = {
   materias: document.querySelector('.btn-card1'),
   normas: document.querySelector('.btn-card2'),
   senai: document.querySelector('.btn-card3')
 };
-const card_conteudo = {
-  materias: document.querySelector('#materias-conteudo'),
-  normas: document.querySelector('#normas-tecnicas-conteudo'),
-  senai: document.querySelector('#senai-conteudo')
-};
+
 const config = {
   materias: ['normas', 'senai'],
   normas: ['materias', 'senai'],
   senai: ['materias', 'normas']
 };
-const config_conteudo = {
-  materias: ['normas', 'senai'],
-  normas: ['materias', 'senai'],
-  senai: ['materias', 'normas']
-};
+
 let cardactive = {
     materias: false,
     normastecnicas: false,

@@ -8,11 +8,7 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
-.hidden{
-  display: none;
-}
-
-.title-refined{
+a{
   text-decoration: none;
 }
 
@@ -59,9 +55,6 @@ header {
 main {
   flex: 1;
   align-items: center;
-}
-
-main {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -81,13 +74,12 @@ main {
   gap: 30px;
 }
 .card:hover {
-  transform: translateY(-5px);
-  background: #1f2b4d;
+  transform: translateY(-10px);
+  background: #103499;
 }
 
 .card button a{
   color: rgba(0, 0, 0, 100);
-  text-decoration: none;
 }
 
 .card h2 { margin-bottom: 20px; }
@@ -102,7 +94,7 @@ main {
   font-weight: bold;
 }
 
-.img-card-central{
+.img-cards{
   max-width: 100%;
   max-height: 100%;
   margin-bottom: 40px;
@@ -125,6 +117,10 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 6px;
+}
+
+.hidden{
+  display: none;
 }
 
 @media (max-width: 768px) {
