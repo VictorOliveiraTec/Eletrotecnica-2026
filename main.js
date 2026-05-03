@@ -22,7 +22,7 @@ let cardactive = {
     normastecnicas: false,
     senai: false
 };
-
+/*
 // função central
 const togglePainel = (alvos) => {
   alvos.forEach(k => cardactive[k] = !cardactive[k]);
@@ -40,4 +40,4 @@ Object.keys(config).forEach(key => {
   botoes[key].addEventListener('click', () => {
     togglePainel(config[key]);
   });
-});
+});*/
