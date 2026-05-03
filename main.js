@@ -9,7 +9,17 @@ const botoes = {
   normas: document.querySelector('.btn-card2'),
   senai: document.querySelector('.btn-card3')
 };
+const card_conteudo = {
+  materias: document.querySelector('#materias-conteudo'),
+  normas: document.querySelector('#normas-tecnicas-conteudo'),
+  senai: document.querySelector('#senai-conteudo')
+};
 const config = {
+  materias: ['normas', 'senai'],
+  normas: ['materias', 'senai'],
+  senai: ['materias', 'normas']
+};
+const config_conteudo = {
   materias: ['normas', 'senai'],
   normas: ['materias', 'senai'],
   senai: ['materias', 'normas']
@@ -26,7 +36,9 @@ const togglePainel = (alvos) => {
   const aberto = alvos.every(k => cardactive[k]);
     alvos.forEach(k => {
         cards[k].classList.toggle('hidden', aberto);
+        console.log(cards[k]);
     });
+
   console.log(aberto ? 'Painel aberto' : 'Painel fechado');
 };
 

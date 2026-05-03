@@ -1,7 +1,4 @@
 @import url("animacoes.css");
-@import url("header.css");
-@import url("main.css");
-@import url("footer.css");
 
 :root {
   --cor-background-primario: #0b1220;
@@ -15,6 +12,10 @@
   display: none;
 }
 
+.title-refined{
+  text-decoration: none;
+}
+
 body {
   font-family: Arial, sans-serif;
   background: var(--cor-background-primario);
@@ -22,6 +23,108 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo img {
+  width: 60px;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover { color: #f5c542; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: var(--cor-backgound-secundario);
+}
+
+main {
+  flex: 1;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: var(--cor-backgound-terciaria);
+  padding: 30px;
+  width: 250px;
+  height: 350px;
+  text-align: center;
+  border-radius: 12px;
+  transition: 0.3s;
+  flex: 0 0 28%;
+  gap: 30px;
+}
+.card:hover {
+  transform: translateY(-5px);
+  background: #1f2b4d;
+}
+
+.card button a{
+  color: rgba(0, 0, 0, 100);
+  text-decoration: none;
+}
+
+.card h2 { margin-bottom: 20px; }
+.card p { font-size: 14px; margin-bottom: 30px; }
+
+.card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #f5c542;
+  font-weight: bold;
+}
+
+.img-card-central{
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111a2e;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 20px;
+  background: var(--cor-backgound-secundario);
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 @media (max-width: 768px) {
