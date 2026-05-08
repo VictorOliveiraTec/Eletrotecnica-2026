@@ -55,6 +55,7 @@ header {
 #base-conteudo-center {
   flex: 1;
   align-items: center;
+  justify-items: center;
   display: flex;
   justify-content: center;
   gap: 30px;
