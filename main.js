@@ -1,6 +1,36 @@
 
 const main = document.querySelector('#conteudo')
 
+function trocarConteudo() {
+
+  main.innerHTML = `
+  
+  <h1>Bem-vindo ao nosso site da Eletrotécnica 2026!</h1>
+
+  <div id="base-conteudo-center">
+    <div class="card" id="Materias">
+      <img src="assets/imgs/logo materias.png" alt="Materias" class="img-cards">
+      <h2>Matérias</h2>
+      <p>Acesso a algumas matérias já concluidas.</p>
+      <button onclick="trocarConteudo1()">Acessar</button>
+    </div>
+    <div class="card" id="Normas-Tecnicas">
+      <img src="assets/imgs/normas tecnicas.png" alt="Normas Tecnicas" class="img-cards">
+      <h2>Normas Técnicas</h2>
+      <p>Acesso às normas técnicas.</p>
+      <button onclick="trocarConteudo2()">Acessar</button>     
+    </div>
+    <div class="card" id="Senai">
+      <img src="assets/imgs/logo senai.png" alt="Senai" class="img-cards">
+      <h2>Senai</h2>
+      <p>Links relacionados ao Senai em geral.</p>
+      <button onclick="trocarConteudo3()">Acessar</button>
+    </div>
+  </div>
+
+  `;
+}
+
 function trocarConteudo1() {
 
   main.innerHTML = `
