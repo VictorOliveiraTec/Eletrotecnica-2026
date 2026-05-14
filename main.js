@@ -63,6 +63,11 @@ function trocarConteudo1() {
           <p>GESTÃO DA MANUTENÇÃO</p>
           <button><a href="https://drive.google.com/drive/folders/1fKkCcEbFu-ZHr1NWxFolF0fEJlyFeLZy?usp=sharing" target="_blank">Acessar</a></button>
        </div>
+       <div class="card-conteudo">
+          <h3>MANUTENÇÕES DE SISTEMAS ELÉTRICOS DE POTÊNCIA - SEP</h3>
+          <p>MANUTENÇÕES DE SISTEMAS ELÉTRICOS DE POTÊNCIA - SEP</p>
+          <button><a href="" target="_blank">Acessar</a></button>
+        </div>
     </div>
 
   `;
