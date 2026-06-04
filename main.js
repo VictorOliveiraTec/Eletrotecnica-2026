@@ -58,6 +58,11 @@ const paginas = {
         titulo: 'MANUTENÇÕES DE SISTEMAS ELÉTRICOS DE POTÊNCIA - SEP',
         descricao: 'MANUTENÇÕES DE SISTEMAS ELÉTRICOS DE POTÊNCIA - SEP',
         link: 'https://drive.google.com/drive/folders/12bIk-fA5nfgvFH3JV6Dz7miGF8tBRtJ6?usp=sharing'
+      },
+      {
+        titulo: 'INSTALAÇÕES ELÉTRICAS INDÚSTRIAS',
+        descricao: 'INSTALAÇÕES ELÉTRICAS INDÚSTRIAS',
+        link: 'https://drive.google.com/drive/folders/1vtcx5wxK6kR5bPDRm_DL5EGtkh53Neem?usp=sharing'
       }
     ]
   },
