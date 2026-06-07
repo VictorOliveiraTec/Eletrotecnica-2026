@@ -27,7 +27,7 @@ const paginas = {
   },
 
   materias: {
-    titulo: 'Matérias',
+    titulo: 'Matérias | 6/20',
     cards: [
       {
         titulo: 'CIRCUITOS ELÉTRICOS I',
@@ -84,8 +84,22 @@ const paginas = {
         titulo: 'Woka Instalações Eletricas',
         descricao: 'Informações sobre instalações elétricas.',
         link: 'https://www.woka.com.br/instalacoes-eletricas'
+      },
+      {
+        titulo: 'WOKWI',
+        descricao: 'Simulador Arduinos, Esp32...',
+        link: 'https://wokwi.com/pricing?ref=header'
+      },
+      {
+        titulo: 'Medium',
+        descricao: 'Artigos Gerais',
+        link: 'https://medium.com/'
+      },
+      {
+        titulo: 'Normas Tecnicas Cemig',
+        descricao: 'Normas Tecnicas Cemig',
+        link: 'https://www.cemig.com.br/normas-tecnicas/'
       }
-    ]
   },
 
   senai: {
