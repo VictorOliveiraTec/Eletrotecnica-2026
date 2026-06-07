@@ -99,6 +99,11 @@ const paginas = {
         titulo: 'Normas Tecnicas Cemig',
         descricao: 'Normas Tecnicas Cemig',
         link: 'https://www.cemig.com.br/normas-tecnicas/'
+      },
+      {
+        titulo: 'EPE',
+        descricao: 'Empresa de Pesquisa Energética',
+        link: 'https://www.epe.gov.br/pt'
       }
     ]
   },
