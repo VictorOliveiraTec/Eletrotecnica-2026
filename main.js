@@ -100,6 +100,7 @@ const paginas = {
         descricao: 'Normas Tecnicas Cemig',
         link: 'https://www.cemig.com.br/normas-tecnicas/'
       }
+    ]
   },
 
   senai: {
