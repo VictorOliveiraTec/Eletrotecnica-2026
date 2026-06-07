@@ -8,19 +8,19 @@ const paginas = {
       {
         titulo: 'Matérias',
         descricao: 'Acesso a algumas matérias já concluídas.',
-        imagem: 'assets/imgs/logo senai.png',
+        imagem: 'assets/imgs/Materias.svg',
         pagina: 'materias'
       },
       {
         titulo: 'Normas Técnicas',
         descricao: 'Acesso às normas técnicas.',
-        imagem: 'assets/imgs/logo senai.png',
+        imagem: 'assets/imgs/Normas Tecnicas.svg',
         pagina: 'normas'
       },
       {
         titulo: 'Senai',
         descricao: 'Links relacionados ao Senai em geral.',
-        imagem: 'assets/imgs/logo senai.png',
+        imagem: 'assets/imgs/Senai.svg',
         pagina: 'senai'
       }
     ]
