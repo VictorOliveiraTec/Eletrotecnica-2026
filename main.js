@@ -2,7 +2,7 @@ const main = document.querySelector('#conteudo');
 
 const paginas = {
   home: {
-    titulo: 'Bem-vindo ao nosso site da Eletrotécnica 2026!',
+    titulo: 'Eletrotécnica 2026',
     center: true,
     cards: [
       {
