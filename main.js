@@ -104,6 +104,11 @@ const paginas = {
         titulo: 'EPE',
         descricao: 'Empresa de Pesquisa Energética',
         link: 'https://www.epe.gov.br/pt'
+      },
+      {
+        titulo: 'ONS',
+        descricao: 'Operador Nacional Do Sistema Eletrico',
+        link: 'https://www.ons.org.br/'
       }
     ]
   },
