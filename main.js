@@ -22,6 +22,12 @@ const paginas = {
         descricao: 'Links relacionados ao Senai em geral.',
         imagem: 'assets/imgs/Senai.svg',
         pagina: 'senai'
+      },
+      {
+        titulo: 'Sites',
+        descricao: 'Links para sites úteis.',
+        imagem: 'assets/imgs/Sites.svg',
+        pagina: 'sites'
       }
     ]
   },
@@ -71,44 +77,14 @@ const paginas = {
     titulo: 'Normas Técnicas',
     cards: [
       {
-        titulo: 'TinkerCad',
-        descricao: 'Base do Senai, informações básicas.',
-        link: 'https://www.tinkercad.com/'
-      },
-      {
         titulo: 'Site Norma ABNT',
         descricao: 'Portal da ABNT.',
         link: 'https://www.abntcolecao.com.br/'
       },
       {
-        titulo: 'Woka Instalações Eletricas',
-        descricao: 'Informações sobre instalações elétricas.',
-        link: 'https://www.woka.com.br/instalacoes-eletricas'
-      },
-      {
-        titulo: 'WOKWI',
-        descricao: 'Simulador Arduinos, Esp32...',
-        link: 'https://wokwi.com/pricing?ref=header'
-      },
-      {
-        titulo: 'Medium',
-        descricao: 'Artigos Gerais',
-        link: 'https://medium.com/'
-      },
-      {
         titulo: 'Normas Tecnicas Cemig',
         descricao: 'Normas Tecnicas Cemig',
         link: 'https://www.cemig.com.br/normas-tecnicas/'
-      },
-      {
-        titulo: 'EPE',
-        descricao: 'Empresa de Pesquisa Energética',
-        link: 'https://www.epe.gov.br/pt'
-      },
-      {
-        titulo: 'ONS',
-        descricao: 'Operador Nacional Do Sistema Eletrico',
-        link: 'https://www.ons.org.br/'
       }
     ]
   },
@@ -130,6 +106,43 @@ const paginas = {
         titulo: 'Biblioteca Senai',
         descricao: 'Acesso à biblioteca.',
         link: 'https://bibliotecasesisenai.fiemg.com.br/'
+      }
+    ]
+  },
+
+  sites: {
+    titulo: 'Sites',
+    cards: [
+      {
+        titulo: 'Woka Instalações Eletricas',
+        descricao: 'Informações sobre instalações elétricas.',
+        link: 'https://www.woka.com.br/instalacoes-eletricas'
+      },
+
+      {
+        titulo: 'WOKWI',
+        descricao: 'Simulador Arduinos, Esp32...',
+        link: 'https://wokwi.com/pricing?ref=header'
+      },
+      {
+        titulo: 'Medium',
+        descricao: 'Artigos Gerais',
+        link: 'https://medium.com/'
+      },
+      {
+        titulo: 'EPE',
+        descricao: 'Empresa de Pesquisa Energética',
+        link: 'https://www.epe.gov.br/pt'
+      },
+      {
+        titulo: 'ONS',
+        descricao: 'Operador Nacional Do Sistema Eletrico',
+        link: 'https://www.ons.org.br/'
+      },
+      {
+        titulo: 'TinkerCad',
+        descricao: 'Base do Senai, informações básicas.',
+        link: 'https://www.tinkercad.com/'
       }
     ]
   }
