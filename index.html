@@ -35,6 +35,7 @@
     <button class="button-nop" onclick="renderizarPagina('materias')"><a class="card-menu" id="card-materias">Matérias</a></button>
     <button class="button-nop" onclick="renderizarPagina('normas')"><a class="card-menu" id="card-normas">Normas Técnicas</a></button>
     <button class="button-nop" onclick="renderizarPagina('senai')"><a class="card-menu" id="card-senai">SENAI</a></button>
+    <button class="button-nop" onclick="renderizarPagina('sites')"><a class="card-menu" id="card-sites">Sites</a></button>
   </nav>
 </header>
 
@@ -42,7 +43,7 @@
   <h2>
     Bem-vindo ao nosso site da Eletrotécnica 2026!
   </h2>
-  <div id="base-conteudo-center">
+  <div id="base-conteudo-center" class="base-conteudo-principal">
     <div class="card" id="Materias">
       <img src="assets/imgs/Materias.svg" alt="Materias" class="img-cards">
       <h3>Matérias</h3>
@@ -60,6 +61,12 @@
       <h3>Senai</h3>
       <p>Links relacionados ao Senai em geral.</p>
       <button onclick="renderizarPagina('senai')">Acessar</button>
+    </div>
+    <div class="card" id="Sites">
+      <img src="assets/imgs/Sites.svg" alt="Sites" class="img-cards">
+      <h3>Sites</h3>
+      <p>Links para sites úteis.</p>
+      <button onclick="renderizarPagina('sites')">Acessar</button>
     </div>
   </div>
 
