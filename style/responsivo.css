@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+    main{
+        background-size: contain;
+        background-position: right;
+    }
     #titulo-primario-central{
         font-size: 24px;
     }
