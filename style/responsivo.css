@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+    #titulo-primario-central{
+        font-size: 24px;
+    }
+    #titulo-secundario-central{
+        font-size: 20px;
+        animation: waveColor 2s infinite;
+    }
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+    nav {
+        display: none;
+    }
+    main {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card-conteudo{
+        flex: 1;
+        width: 100%;
+    }
+    footer .info, footer .links-footer{
+        display: none;
+    }
+}

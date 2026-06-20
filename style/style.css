@@ -1,0 +1,26 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--cor-background-primario);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a{
+  text-decoration: none;
+}
+
+.button-nop{
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.hidden{
+  display: none;
+}
+

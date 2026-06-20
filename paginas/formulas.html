@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eletrotécnica 2026 - Formulas</title>
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="../style/header.css">
+  <link rel="stylesheet" href="../style/main.css">
+  <link rel="stylesheet" href="../style/footer.css">
+  <link rel="stylesheet" href="../style/formulas.css">
+  <link rel="stylesheet" href="../style/animacoes.css">
+  <link rel="stylesheet" href="../style/responsivo.css">
+  <link rel="stylesheet" href="../style/variaveis.css">
+  <link rel="shortcut icon" href="../assets/imgs/logotransparente.png" type="image/x-icon">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="../assets/imgs/logotransparente.png" alt="logo">
+    <button class="button-nop" onclick="renderizarPagina('home')">
+      <h1 class="logo-titulo">
+        <span>E</span>
+        <span>l</span>
+        <span>e</span>
+        <span>t</span>
+        <span>r</span>
+        <span>o</span>
+        <span>T</span>
+        <span>é</span>
+        <span>c</span>
+        <span>n</span>
+        <span>i</span>
+        <span>c</span>
+        <span>a</span>
+      </h1>
+    </button>
+  </div>
+
+  <nav class="menu-secundario">
+    <button class="button-nop" onclick="renderizarPagina('materias')"><a class="card-menu" id="card-materias">Matérias</a></button>
+    <button class="button-nop" onclick="renderizarPagina('normas')"><a class="card-menu" id="card-normas">Normas Técnicas</a></button>
+    <button class="button-nop" onclick="renderizarPagina('senai')"><a class="card-menu" id="card-senai">SENAI</a></button>
+    <button class="button-nop" onclick="renderizarPagina('sites')"><a class="card-menu" id="card-sites">Sites</a></button>
+  </nav>
+</header>
+
+<main id="conteudo">
+  
+  <h2 class="logo-titulo">Formulas</h2>
+
+  <div id="base-conteudo-center" class="base-conteudo-principal">
+    <div class="card card-formulas" id="formulas">
+      <h2>Tabela de Cores</h2>
+        <table border="1px solid black" id="tabela-cores">
+            <tr>
+                <th>Cor</th>
+                <th>Faixa 1</th>
+                <th>Faixa 2</th>
+                <th>Faixa 3</th>
+                <th>Faixa 4</th>
+            </tr>
+
+            <tr>
+                <td>Preto</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <td>Marrom</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1^1</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Vermelho</td>
+                <td>2</td>
+                <td>2</td>
+                <td>10^2</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Laranja</td>
+                <td>3</td>
+                <td>3</td>
+                <td>10^3</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Amarelo</td>
+                <td>4</td>
+                <td>4</td>
+                <td>10^4</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Verde</td>
+                <td>5</td>
+                <td>5</td>
+                <td>10^5</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Azul</td>
+                <td>6</td>
+                <td>6</td>
+                <td>10^6</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Violeta</td>
+                <td>7</td>
+                <td>7</td>
+                <td>10^7</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Cinza</td>
+                <td>8</td>
+                <td>8</td>
+                <td>10^8</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Branco</td>
+                <td>9</td>
+                <td>9</td>
+                <td>10^9</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Prateado</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0,1</td>
+                <td>-|+ 5%</td>
+            </tr>
+            <tr>
+                <td>Dourado</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0,1</td>
+                <td>-|+ 10%</td>
+            </tr>
+        </table>
+    </div>
+    <div class="card card-formulas" id="multiplos">
+        <h2>Tabela de Múltiplos</h2>
+        <table border="1px solid black" id="tabela-multiplos">
+            <tr>
+                <th>Prefixo</th>
+                <th>Simbolo</th>
+                <th>Potência</th>
+            </tr>
+            <tr>
+                <td>Yotta</td>
+                <td>Y</td>
+                <td>10^24</td>
+            </tr>
+            <tr>
+                <td>Exa</td>
+                <td>E</td>
+                <td>10^18</td>
+            </tr>
+            <tr>
+                <td>Peta</td>
+                <td>P</td>
+                <td>10^15</td>
+            </tr>
+            <tr>
+                <td>Tera</td>
+                <td>T</td>
+                <td>10^12</td>
+            </tr>
+            <tr>
+                <td>Giga</td>
+                <td>G</td>
+                <td>10^9</td>
+            </tr>
+            <tr>
+                <td>Mega</td>
+                <td>M</td>
+                <td>10^6</td>
+            </tr>
+            <tr>
+                <td>Kilo</td>
+                <td>k</td>
+                <td>10^3</td>
+            </tr>
+            <tr>
+                <td>Hecto</td>
+                <td>h</td>
+                <td>10^2</td>
+            </tr>
+            <tr>
+                <td>Deca</td>
+                <td>da</td>
+                <td>10^1</td>
+            </tr>
+            <tr>
+                <td>Unidade</td>
+                <td>-</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
+    <div class="card card-formulas" id="submultiplos">
+        <h2>Tabela de Submúltiplos</h2>
+        <table border="1px solid black" id="tabela-submultiplos">
+            <tr>
+                <th>Prefixo</th>
+                <th>Simbolo</th>
+                <th>Potência</th>
+            </tr>
+            <tr>
+                <td>Unidade</td>
+                <td>-</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Deci</td>
+                <td>d</td>
+                <td>10^-1</td>
+            </tr>
+            <tr>
+                <td>Centi</td>
+                <td>c</td>
+                <td>10^-2</td>
+            </tr>
+            <tr>
+                <td>Mili</td>
+                <td>m</td>
+                <td>10^-3</td>
+            </tr>
+            <tr>
+                <td>Micro</td>
+                <td>μ</td>
+                <td>10^-6</td>
+            </tr>
+            <tr>
+                <td>Nano</td>
+                <td>n</td>
+                <td>10^-9</td>
+            </tr>
+            <tr>
+                <td>Pico</td>
+                <td>p</td>
+                <td>10^-12</td>
+            </tr>
+            <tr>
+                <td>Femto</td>
+                <td>f</td>
+                <td>10^-15</td>
+            </tr>
+            <tr>
+                <td>Atto</td>
+                <td>a</td>
+                <td>10^-18</td>
+            </tr>
+        </table>
+  </div>
+  </div>
+  
+</main>
+
+<footer>
+  <div class="blocos-footer">
+    <div class="dados">
+      <p>Matérias concluídas: <a id="agradecimento" href="../paginas/formulas.html">6/20</p>
+      <p>Progresso do curso: <a id="agradecimento" href="../paginas/agradecimento.html">30%</a></p>
+    </div>
+    <div class="info">
+      <p class="desenvolvimento-site" style="animation: waveColor 2s infinite;">Desenvolvido para auxiliar os alunos do curso Técnico em Eletrotécnica.</p>
+    </div>
+    <div class="links-footer">
+      <button class="button-nop"  onclick="renderizarPagina('materias')"><a>📚 Matérias</a></button>
+      <button class="button-nop" onclick="renderizarPagina('normas')"><a>📖 Normas</a></button>
+      <button class="button-nop" onclick="renderizarPagina('senai')"><a>🏫 Senai</a></button>
+      <button class="button-nop" onclick="renderizarPagina('sites')"><a>🌐 Sites</a></button>
+    </div>
+  </div>
+</footer>
+
+  <script src="../main.js"></script>
+
+</body>
+</html>

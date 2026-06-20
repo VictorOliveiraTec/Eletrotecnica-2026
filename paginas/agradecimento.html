@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eletrotécnica 2026 - Senai</title>
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="../style/header.css">
+  <link rel="stylesheet" href="../style/main.css">
+  <link rel="stylesheet" href="../style/footer.css">
+  <link rel="stylesheet" href="../style/formulas.css">
+  <link rel="stylesheet" href="../style/animacoes.css">
+  <link rel="stylesheet" href="../style/responsivo.css">
+  <link rel="stylesheet" href="../style/variaveis.css">
+  <link rel="shortcut icon" href="../assets/imgs/logotransparente.png" type="image/x-icon">
+  <style>
+    main .alunos {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+
+    }
+    .table1, .table2 {
+      display: inline-block;
+      width: 45%;
+      margin: 20px;
+    }
+
+    #tabela-agradecimento {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    #tabela-agradecimento th, #tabela-agradecimento td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+
+    #tabela-agradecimento th {
+        text-align: center;
+        background-color: #353561;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="../assets/imgs/logotransparente.png" alt="logo">
+    <button class="button-nop" onclick="renderizarPagina('home')">
+      <h1 class="logo-titulo">
+        <span>E</span>
+        <span>l</span>
+        <span>e</span>
+        <span>t</span>
+        <span>r</span>
+        <span>o</span>
+        <span>T</span>
+        <span>é</span>
+        <span>c</span>
+        <span>n</span>
+        <span>i</span>
+        <span>c</span>
+        <span>a</span>
+      </h1>
+    </button>
+  </div>
+
+  <nav class="menu-secundario">
+    <button class="button-nop" onclick="renderizarPagina('materias')"><a class="card-menu" id="card-materias">Matérias</a></button>
+    <button class="button-nop" onclick="renderizarPagina('normas')"><a class="card-menu" id="card-normas">Normas Técnicas</a></button>
+    <button class="button-nop" onclick="renderizarPagina('senai')"><a class="card-menu" id="card-senai">SENAI</a></button>
+    <button class="button-nop" onclick="renderizarPagina('sites')"><a class="card-menu" id="card-sites">Sites</a></button>
+  </nav>
+</header>
+
+<main id="conteudo">
+  
+    <h2 class="logo-titulo">Eletrotécnica 2026</h2>
+    <div class="alunos">
+        <div class="table1">
+            <table border="1px solid black" id="tabela-agradecimento">
+                <tr>
+                    <th>Nome</th>
+                </tr>
+                <tr><td>VICTOR HUGO NUNES OLIVEIRA</td></tr>
+                <tr><td>IGOR AMORIM RIBEIRO</td></tr>
+                <tr><td>PEDRO AUGUSTO SERAFIM DOS SANTOS</td></tr>
+                <tr><td>GUILHERME AUGUSTO SOUZA REIS</td></tr>
+                <tr><td>RHAYSSON BEÇA PEREIRA</td></tr>
+                <tr><td>SAMUEL BRIGIDO DA SILVA</td></tr>
+                <tr><td>TASSIS DE ASSIS FROIS DA SILVA</td></tr>
+                <tr><td>SERGIO DE JESUS REIS</td></tr>
+                <tr><td>ROBERTO DE OLIVEIRA DELFINO</td></tr>
+                <tr><td>GUSTAVO DE OLIVEIRA PORFIRIO</td></tr>
+                <tr><td>FABIANO DE SOUSA MORADOR</td></tr>
+                <tr><td>WELVES DOS SANTOS</td></tr>
+                <tr><td>HENRIQUE ESTEVAM MIRANDA</td></tr>
+                <tr><td>YAN FILIPE DIAS DE ANDRADE</td></tr>
+                <tr><td>GABRIEL FILLIPE LAS CASAS FERNANDES</td></tr>
+                <tr><td>ISAAC GOMES DA COSTA SILVA</td></tr>
+            </table>
+        </div>
+        <div class="table2">
+            <table border="1px solid black" id="tabela-agradecimento">
+                <tr>
+                    <th>Nome</th>
+                </tr>
+                <tr><td>ELIAS GONÇALVES CORSINO</td></tr>
+                <tr><td>DANILO HENRIQUE FERREIRA DOS SANTOS</td></tr>
+                <tr><td>PEDRO HENRIQUE PRADO OLIVEIRA DUQUE</td></tr>
+                <tr><td>MÁRCIO JUNIO BELO FERREIRA</td></tr>
+                <tr><td>JOAO LEMOS DE RESENDE NETO</td></tr>
+                <tr><td>GABRIEL LOURENÇO OLIVEIRA</td></tr>
+                <tr><td>PEDRO LUCAS DE MOURA SILVA</td></tr>
+                <tr><td>VINÍCIUS MANOEL OLIVEIRA PAIXÃO</td></tr>
+                <tr><td>LUCAS MARCOS DA SILVA</td></tr>
+                <tr><td>ALEXANDRE MARTINS DE SOUZA</td></tr>
+                <tr><td>ISRAEL MELLO ALVES MACEDO</td></tr>
+                <tr><td>JORGE MIGUEL FERREIRA DA SILVA</td></tr>
+                <tr><td>NICOLAS NOGUEIRA CUNHA</td></tr>
+                <tr><td>PATRICK SOARES BARBOSA</td></tr>
+                <tr><td>MAYCKON SOARES DOS SANTOS</td></tr>
+                <tr><td>MATHEUS SOARES NUNES</td></tr>
+            </table>
+        </div>
+        
+    </main>
+    <p style="text-align: center; font-size: 18px; margin: 20px;animation: waveColor 2s infinite;">
+      Agradecemos a todos os alunos que participaram do curso de Eletrotécnica 2026.
+    </p>
+<footer>
+  <div class="blocos-footer">
+    <div class="dados">
+      <p>Matérias concluídas: <a id="agradecimento" href="../paginas/formulas.html">6/20</p>
+      <p>Progresso do curso: <a id="agradecimento" href="../paginas/agradecimento.html">30%</a></p>
+    </div>
+    <div class="info">
+      <p class="desenvolvimento-site" style="animation: waveColor 2s infinite;">Desenvolvido para auxiliar os alunos do curso Técnico em Eletrotécnica.</p>
+    </div>
+    <div class="links-footer">
+      <button class="button-nop"  onclick="renderizarPagina('materias')"><a>📚 Matérias</a></button>
+      <button class="button-nop" onclick="renderizarPagina('normas')"><a>📖 Normas</a></button>
+      <button class="button-nop" onclick="renderizarPagina('senai')"><a>🏫 Senai</a></button>
+      <button class="button-nop" onclick="renderizarPagina('sites')"><a>🌐 Sites</a></button>
+    </div>
+  </div>
+</footer>
+
+  <script src="../main.js"></script>
+
+</body>
+</html>
