@@ -1,3 +1,18 @@
+@media (max-width: 880px) {
+    .descricao-materia{
+        display: none;
+    }
+    .card-materia{
+        grid-template-columns: 1fr 80px 80px;
+    }
+    .titulo-materia{
+        font-size: 12px;
+    }
+    .button-materia-text{
+        max-width: 80px;
+    }
+}
+
 @media (max-width: 768px) {
     #titulo-primario-central{
         font-size: 24px;
@@ -23,5 +38,54 @@
     }
     footer .info, footer .links-footer{
         display: none;
+    }
+    .card-materia .titulo-materia{
+        font-size: 12px;
+    }
+    .card-materia{
+        padding: 10px;
+        height: 150px;
+        grid-template-columns: 1fr 80px 80px;
+    }
+    .button-materia-text, .button-materia-drive{
+        background: #16213e;
+        cursor: pointer;
+        gap: 5px;
+    }
+    .button-materia-text img, .button-materia-drive img{
+        margin: 0px;
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media (max-width: 530px){
+    #titulo-primario-central{
+        font-size: 18px;
+    }
+    #titulo-secundario-central{
+        font-size: 16px;
+    }
+    .card-materia{
+        padding: 10px;
+        height: 150px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "titulo titulo"
+        "text drive"
+        ;
+    }
+    .titulo-materia{
+        font-size: 12px;
+        grid-area: titulo;
+    }
+    .button-materia-text{
+        grid-area: text;
+        max-width: 100%;
+        justify-items: center;
+    }
+    .button-materia-drive{
+        grid-area: drive;
     }
 }
