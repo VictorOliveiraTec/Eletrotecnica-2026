@@ -3,6 +3,7 @@ const Title = document.title;
 
 const paginas = {
   home: {
+    title: 'Eletrotécnica 2026',
     titulo: 'Eletrotécnica 2026',
     center: true,
     cards: [
@@ -35,7 +36,7 @@ const paginas = {
 
   materias: {
     title: 'Eletrotécnica 2026 - Matérias',
-    titulo: 'Matérias | 6/20',
+    titulo: 'Eletrotécnica 2026',
     cards: [
       {
         titulo: 'CIRCUITOS ELÉTRICOS I',
@@ -187,7 +188,27 @@ function renderizarPagina(nomePagina) {
         </div>
       `;
     }
+    if (nomePagina === 'materias'){
+      return `
 
+      <div id="base-conteudo-materia" class="base-conteudo-principal">
+        <div class="card-materia">
+            <p class="titulo-materia">${card.titulo}</p>
+            <p class="descricao-materia">${card.descricao}</p>
+            <button class="button-materia-text">
+              <img src="../assets/imgs/envelope-texto-aberto.svg" alt="Text" class="img-cards">
+              <p>Acessar</p>
+            </button>
+            <button class="button-materia-drive">
+              <img src="../assets/imgs/disco.svg" alt="Text" class="img-cards">
+              <p>Acessar</p>
+            </button>
+          </div>
+      </div>
+    
+      
+      `;
+    }
     // CARD NORMAL
     return `
       <div class="card-conteudo">
