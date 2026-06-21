@@ -41,42 +41,50 @@ const paginas = {
       {
         titulo: 'CIRCUITOS ELÉTRICOS I',
         descricao: 'CIRCUITOS ELÉTRICOS I',
-        link: 'https://drive.google.com/drive/folders/1QYVJJ2oUnPy-72r7n6krxdBaefBOMSDr?usp=sharing'
+        link1: '',
+        link2: 'https://drive.google.com/drive/folders/1QYVJJ2oUnPy-72r7n6krxdBaefBOMSDr?usp=sharing'
       },
       {
         titulo: 'SAÚDE, SEGURANÇA DO TRABALHO E MEIO AMBIENTE',
         descricao: 'SAÚDE, SEGURANÇA DO TRABALHO E MEIO AMBIENTE',
-        link: 'https://drive.google.com/drive/folders/15_ybpuk88k_FoBRCAppBtg8xlxNSmk_m?usp=sharing'
+        link1: '',
+        link2: 'https://drive.google.com/drive/folders/15_ybpuk88k_FoBRCAppBtg8xlxNSmk_m?usp=sharing'
       },
       {
         titulo: 'CIRCUITOS ELÉTRICOS II',
         descricao: 'CIRCUITOS ELÉTRICOS II',
-        link: 'https://drive.google.com/drive/folders/1liihAWNyUccafC5A9UGfqIIIvUF7jEri?usp=sharing'
+        link1: '',
+        link2: 'https://drive.google.com/drive/folders/1liihAWNyUccafC5A9UGfqIIIvUF7jEri?usp=sharing'
       },
       {
         titulo: 'INSTALAÇÕES DE SISTEMAS ELÉTRICOS DE POTÊNCIA - SEP',
         descricao: 'INSTALAÇÕES DE SISTEMAS ELÉTRICOS DE POTÊNCIA - SEP',
-        link: 'https://drive.google.com/drive/folders/1_WoBht6ZS1TljuGRZpjCXDZc8pxnq-MY?usp=sharing'
+        link1: '',
+        link2: 'https://drive.google.com/drive/folders/1_WoBht6ZS1TljuGRZpjCXDZc8pxnq-MY?usp=sharing'
       },
       {
         titulo: 'GESTÃO DA MANUTENÇÃO',
         descricao: 'GESTÃO DA MANUTENÇÃO',
-        link: 'https://drive.google.com/drive/folders/1fKkCcEbFu-ZHr1NWxFolF0fEJlyFeLZy?usp=sharing'
+        link1: '',
+        link2: 'https://drive.google.com/drive/folders/1fKkCcEbFu-ZHr1NWxFolF0fEJlyFeLZy?usp=sharing'
       },
       {
         titulo: 'MANUTENÇÕES DE SISTEMAS ELÉTRICOS DE POTÊNCIA - SEP',
         descricao: 'MANUTENÇÕES DE SISTEMAS ELÉTRICOS DE POTÊNCIA - SEP',
-        link: 'https://drive.google.com/drive/folders/12bIk-fA5nfgvFH3JV6Dz7miGF8tBRtJ6?usp=sharing'
+        link1: '',
+        link2: 'https://drive.google.com/drive/folders/12bIk-fA5nfgvFH3JV6Dz7miGF8tBRtJ6?usp=sharing'
       },
       {
         titulo: 'INSTALAÇÕES ELÉTRICAS INDÚSTRIAS',
         descricao: 'INSTALAÇÕES ELÉTRICAS INDÚSTRIAS',
-        link: 'https://drive.google.com/drive/folders/1vtcx5wxK6kR5bPDRm_DL5EGtkh53Neem?usp=sharing'
+        link1: '',
+        link2: 'https://drive.google.com/drive/folders/1vtcx5wxK6kR5bPDRm_DL5EGtkh53Neem?usp=sharing'
       },
       {
         titulo: 'INTRODUÇÃO À INDÚSTRIA 4.0 ',
         descricao: 'INTRODUÇÃO À INDÚSTRIA 4.0 ',
-        link: 'https://drive.google.com/drive/folders/1nQy-qKLS5-x6gMQJdGHDhtvvcO5S51ju?usp=sharing'
+        link1: '',
+        link2: 'https://drive.google.com/drive/folders/1nQy-qKLS5-x6gMQJdGHDhtvvcO5S51ju?usp=sharing'
       }
     ]
   },
@@ -195,11 +203,11 @@ function renderizarPagina(nomePagina) {
         <div class="card-materia">
             <p class="titulo-materia">${card.titulo}</p>
             <p class="descricao-materia">${card.descricao}</p>
-            <button class="button-materia-text">
+            <button class="button-materia-text" onclick="window.open('${card.link1}', '_blank')">
               <img src="../assets/imgs/envelope-texto-aberto.svg" alt="Text" class="img-cards">
               <p>Acessar</p>
             </button>
-            <button class="button-materia-drive">
+            <button class="button-materia-drive" onclick="window.open('${card.link2}', '_blank')">
               <img src="../assets/imgs/disco.svg" alt="Text" class="img-cards">
               <p>Acessar</p>
             </button>
