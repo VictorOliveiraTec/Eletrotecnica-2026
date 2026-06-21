@@ -204,11 +204,11 @@ function renderizarPagina(nomePagina) {
             <p class="titulo-materia">${card.titulo}</p>
             <p class="descricao-materia">${card.descricao}</p>
             <button class="button-materia-text" onclick="window.open('${card.link1}', '_blank')">
-              <img src="../assets/imgs/envelope-texto-aberto.svg" alt="Text" class="img-cards">
+              <img src="assets/imgs/envelope-texto-aberto.svg" alt="Text" class="img-cards">
               <p>Acessar</p>
             </button>
             <button class="button-materia-drive" onclick="window.open('${card.link2}', '_blank')">
-              <img src="../assets/imgs/disco.svg" alt="Text" class="img-cards">
+              <img src="assets/imgs/disco.svg" alt="Text" class="img-cards">
               <p>Acessar</p>
             </button>
           </div>
