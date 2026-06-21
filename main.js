@@ -23,7 +23,7 @@ const paginas = {
       {
         titulo: 'Sites',
         descricao: 'Links para sites úteis.',
-        image: 'assets/imgs/icone-Sites.png',
+        image: 'assets/imgs/icone-sites.png',
         pagina: 'sites'
       },
       {
