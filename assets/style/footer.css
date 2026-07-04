@@ -13,14 +13,14 @@ footer {
     color: var(--cor-texto);
 }
 
-.blocos-footer {
+.blocos {
     display: flex;
     gap: 20px;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.blocos-footer > div {
+.blocos > div {
     flex: 1;
     min-width: 100px;
     max-width: 350px;
@@ -35,22 +35,22 @@ footer {
     display: flex;
 }
 
-footer .blocos-footer .dados {
+footer .blocos .informacoes {
     display: flex;
     flex-direction: column;
     gap: 6px;
 }
 
-.blocos-footer p {
+.blocos p {
     margin: 1px 0;
     font-size: .9rem;
 }
 
-footer .links-footer {
+footer .menu-secundario nav {
     gap: 10px;
 }
 
-footer .links-footer button {
+footer .menu-secundario button {
     width: 100%;
     padding: 10px;
 
@@ -58,39 +58,42 @@ footer .links-footer button {
     border-radius: 8px;
 
     cursor: pointer;
-
+    animation: waveColor2 3s infinite;
     transition: .2s;
 }
 
-footer .links-footer button:hover {
+footer .menu-secundario nav button:hover {
     transform: translateY(-2px);
 }
 
-.button-footer {
-    background: transparent;
-    color: var(--cor-texto);
-}
-
-.button-footer {
+.menu-secundario {
     text-decoration: none;
     font-size: .95rem;
     animation: waveColor2 3s infinite;
     gap: 5px;
+    display: flex;
+    justify-content: center;
 }
 
-.desenvolvimento-site{
+.menu-secundario nav button span{
+    display: block;
+}
+
+.desenvolvimento{
     padding: 8px;
     font-size: 12px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
-.info{
+.informacoes{
     display: flex;
     flex-direction: column;
     gap: 6px;
 }
 
-.dados{
+.informacoes{
     display: flex;
     flex-direction: column;
     gap: 6px;
