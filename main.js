@@ -16,7 +16,7 @@ const paginas = {
       },
       {
         titulo: 'Matérias',
-        descricao: 'Acesso a algumas matérias já concluídas.',
+        descricao: 'Acesso às matérias já concluídas.',
         image: 'assets/imgs/icone-pasta.png',
         pagina: 'materias'
       },

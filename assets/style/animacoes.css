@@ -1,0 +1,26 @@
+
+main h2{display: inline-block; animation: waveColor 4s infinite;}
+
+@keyframes waveColor {
+  0% {
+    color: var(--cor-base);
+  }
+  50% {
+    color: var(--cor-animada);
+  }
+  100% {
+    color: var(--cor-base);
+  }
+}
+
+@keyframes waveColor2 {
+  0% {
+    color: rgba(185, 185, 24, 0.685);
+  }
+  50% {
+    color: rgba(190, 119, 24, 0.699);
+  }
+  100% {
+    color: rgba(105, 105, 4, 0.685);
+  }
+}

@@ -1,0 +1,92 @@
+footer {
+    background: var(--cor-backgound-secundario);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#agradecimento{
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+
+.footer-blocos {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-blocos > div {
+    flex: 1;
+    min-width: 100px;
+    max-width: 350px;
+
+    padding: 5px;
+
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,.1);
+
+    background: rgba(255,255,255,.03);
+
+    display: flex;
+}
+
+footer .footer-blocos .footer-desenvolvimento {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.footer-blocos p {
+    margin: 1px 0;
+    font-size: .9rem;
+}
+
+footer .footer-blocos .footer-menu {
+    gap: 5px;
+}
+
+footer .footer-blocos .footer-menu nav button {
+    width: 100%;
+    padding: 10px;
+    margin: 0px;
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    transition: .2s;
+}
+
+footer .footer-blocos .footer-menu nav button span{
+    display: block;
+}
+
+footer .footer-blocos .footer-menu button:hover {
+    transform: translateY(-2px);
+}
+
+.btn-menu-secundario {
+    background: transparent;
+    color: var(--cor-texto);
+    text-decoration: none;
+    font-size: .95rem;
+    animation: waveColor2 3s infinite;
+}
+
+.desenvolvimento-site{
+    padding: 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer-informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+}

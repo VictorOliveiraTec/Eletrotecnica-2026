@@ -1,0 +1,22 @@
+
+/* Presets CSS */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+a{text-decoration: none;}
+button{ background: none; border: none; padding: 0; cursor: pointer; }
+.hidden{ display: none; }
+/* Fim Presets CSS */
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--cor-background-primario);
+  color: white;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+
+
+
