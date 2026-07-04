@@ -5,6 +5,8 @@ main{
   background-position: center;
 }
 
+main h2{display: inline-block; animation: waveColor 4s infinite;}
+
 #base-conteudo-center {
   display: grid;
   justify-content: center;

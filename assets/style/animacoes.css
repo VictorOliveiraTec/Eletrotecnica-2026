@@ -1,8 +1,3 @@
-ANIMACOES
-
-
-main h2{display: inline-block; animation: waveColor 4s infinite;}
-
 @keyframes waveColor {
   0% {
     color: var(--cor-base);
