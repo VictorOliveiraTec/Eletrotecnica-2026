@@ -83,10 +83,17 @@ const paginas = {
         link2: 'https://drive.google.com/drive/folders/1vtcx5wxK6kR5bPDRm_DL5EGtkh53Neem?usp=sharing'
       },
       {
-        titulo: 'INTRODUÇÃO À INDÚSTRIA 4.0 ',
-        descricao: 'INTRODUÇÃO À INDÚSTRIA 4.0 ',
+        titulo: 'INTRODUÇÃO À INDÚSTRIA 4.0',
+        descricao: 'INTRODUÇÃO À INDÚSTRIA 4.0',
         link1: '',
         link2: 'https://drive.google.com/drive/folders/1nQy-qKLS5-x6gMQJdGHDhtvvcO5S51ju?usp=sharing'
+      }
+      ,
+      {
+        titulo: 'MANUTENÇÃO ELÉTRICA INDUSTRIAL',
+        descricao: 'MANUTENÇÃO ELÉTRICA INDUSTRIAL',
+        link1: '',
+        link2: 'https://drive.google.com/drive/folders/1-j_3sVkI1jkGtcCbHnAp5Olxr6thqvS1?usp=sharing'
       }
     ]
   },
@@ -171,6 +178,11 @@ const paginas = {
         titulo: 'Portal Da Industria',
         descricao: 'Portal Da Industria',
         link: 'https://www.sistemaindustria.portaldaindustria.com.br/home'
+      },
+      {
+        titulo: 'Classroom',
+        descricao: 'Classroom',
+        link: 'https://classroom.google.com/u/1/'
       }
     ]
   }
