@@ -13,8 +13,9 @@ body {
   background: var(--cor-background-primario);
   font-family: Arial, sans-serif;
   color: white;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
   max-width: 99vw;
 }
